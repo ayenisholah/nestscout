@@ -1,12 +1,12 @@
 import React from "react";
 
 import "./App.scss";
-import SideBar from "./components/sideBar/SideBar";
+import Menu from "./components/Menu";
 
 function App() {
   return (
     <div className="App">
-      <SideBar />
+      <Menu />
     </div>
   );
 }
